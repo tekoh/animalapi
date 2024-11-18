@@ -49,8 +49,8 @@ importers:
         version: 3.23.8
     devDependencies:
       '@catppuccin/daisyui':
-        specifier: ^1.1.2
-        version: 1.1.2(daisyui@4.12.14(postcss@8.4.49))
+        specifier: ^1.2.1
+        version: 1.2.1(daisyui@4.12.14(postcss@8.4.49))
       '@sveltejs/adapter-vercel':
         specifier: ^5.4.7
         version: 5.4.7(@sveltejs/kit@2.8.1(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.13)(vite@5.4.11(@types/node@22.9.0)))(svelte@5.1.13)(vite@5.4.11(@types/node@22.9.0)))
@@ -319,13 +319,13 @@ packages:
     resolution: {integrity: sha512-5F7SDGs1T72ZczbRwbGO9lQi0NLjQxzl6i4lJxLxfW9U5UluCSyEJeniWvnhl3/euNiqQVbo8zruhsDfid0esA==}
     engines: {node: '>=6.9.0'}
 
-  '@catppuccin/daisyui@1.1.2':
-    resolution: {integrity: sha512-93zeGybjF882zFwxsCCBpaf0Rk8btnvMUQrnwlM9k7t3Ol9JcZraqqxN9yRcAn/jK8jMKGa0pj/xc+CRdPStJg==}
+  '@catppuccin/daisyui@1.2.1':
+    resolution: {integrity: sha512-smtDviKKHp/NgReDgNEfRoWxwo+Q4OXX1joaOmKzNZ7oFk2xNWz9D+17ihOt1IsebmQd7i27PkHoO2qR6SZHzQ==}
     peerDependencies:
       daisyui: ^4.10.2
 
-  '@catppuccin/palette@1.4.0':
-    resolution: {integrity: sha512-Npdg/QFeMAEbRVlnJqc1xE3i7NI4liSq4tTTXk4U/L3vPEiqw3bZQJRLYjuP0Vq2AEDNS5H5Li+lk27c38sP4g==}
+  '@catppuccin/palette@1.7.1':
+    resolution: {integrity: sha512-aRc1tbzrevOTV7nFTT9SRdF26w/MIwT4Jwt4fDMc9itRZUDXCuEDBLyz4TQMlqO9ZP8mf5Hu4Jr6D03NLFc6Gw==}
 
   '@drizzle-team/brocli@0.10.2':
     resolution: {integrity: sha512-z33Il7l5dKjUgGULTqBsQBQwckHh5AbIuxhdsIxDDiZAzBOrZO6q9ogcWC65kU382AfynTfgNumVcNIjuIua6w==}
@@ -3258,12 +3258,12 @@ snapshots:
       regenerator-runtime: 0.14.1
     optional: true
 
-  '@catppuccin/daisyui@1.1.2(daisyui@4.12.14(postcss@8.4.49))':
+  '@catppuccin/daisyui@1.2.1(daisyui@4.12.14(postcss@8.4.49))':
     dependencies:
-      '@catppuccin/palette': 1.4.0
+      '@catppuccin/palette': 1.7.1
       daisyui: 4.12.14(postcss@8.4.49)
 
-  '@catppuccin/palette@1.4.0': {}
+  '@catppuccin/palette@1.7.1': {}
 
   '@drizzle-team/brocli@0.10.2': {}
 
