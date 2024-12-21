@@ -14,7 +14,7 @@
 	"devDependencies": {
 		"@catppuccin/daisyui": "^1.1.2",
 		"@sveltejs/adapter-vercel": "^5.4.7",
-		"@sveltejs/kit": "^2.8.1",
+		"@sveltejs/kit": "^2.8.3",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/node": "^22.9.0",
 		"autoprefixer": "^10.4.20",
